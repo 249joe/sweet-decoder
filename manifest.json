@@ -1,0 +1,13 @@
+{
+    "name":"Sweet Decoder",
+    "version":"1.0.0",
+    "description":"demo",
+    "manifest_version":3,
+    "author":"yousif ibrahim",
+    "action":{
+        "default_popup":"index.html",
+        "default_title":"Sweet Decoder"
+    }
+
+
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder</title>
+    <link rel="icon" href="./logo-cover.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <article>
+            <img src="./logo.png" alt="logo"/>
+            <h1>Sweet Decoder</h1>
+        </article>
+        <div>
+            <!-- <input type="text" id="input1"/> -->
+             <textarea name="input1" id="input1"></textarea>
+            <div> 
+                <select name="type1" id="type1">
+                    <option value="utf8" id="utf8">plain</option>
+                    <option value="url" id="url">URl</option>
+                    <option value="html" id="html">HTML</option>
+                    
+                    <option value="base64" id="base64">base64</option>
+                    <option value="hex" id="hex">hex</option>
+                </select>
+                <button id="btn">decode</button>
+            </div>
+        </div>
+       <div>
+
+           <!-- <input type="text" id="input2"/> -->
+           <textarea name="input2" id="input2"></textarea>
+           <div>
+               <select name="type2" id="type2">
+                   <option value="url" id="url">URl</option>
+                   <option value="html" id="html">HTML</option>
+                   <option value="utf8" id="utf8">plain</option>
+                   <option value="base64" id="base64">base64</option>
+                   <option value="hex" id="hex">hex</option>
+                </select>
+                <button id="copy-btn">
+                    <i class="fa-regular fa-copy"></i>
+                    copy
+                </button>
+            </div>
+        </div>
+        <footer>
+            <p>&copy;author :j03ibra@gmail.com <a href="https://yousifibrahim.netlify.app" target="_blank">about-me</a></p>
+        </footer>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
